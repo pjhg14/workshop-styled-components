@@ -13,6 +13,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   /* ✅ try adding a global style to all the h1 and p tags */
+  h1 {
+    color: steelblue;
+  }
+
+  p {
+    color: goldenrod;
+  }
 `;
 
 export default function App() {
